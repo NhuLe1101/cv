@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PaytoneOne';
+    src: url('PaytoneOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CanvaJoihey';
+    src: url('38305886e579b3740989f7827f503322.woff2') format('woff2');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#container{
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container a{
+    text-decoration: none;
+}
+
+#main{
+    margin: 2rem 0;
+    width: 700px;
+    height: 94%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+
+#infor-profile{
+    width: 295px;
+    height: 100%;
+    background-color: transparent;
+
+}
+
+#avt{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#avt img{
+    width: 200px;
+    height: 200px;
+}
+
+#contact{
+    width: 280px;
+    height: fit-content;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-size: 16px;
+    font-family: 'Montserrat';
+    padding: 16px;
+
+}
+
+#exp{
+    width: 395px;
+    height: 100%;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.jobs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+
+.job{
+    width: 100%;
+    height: fit-content;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    padding: 16px;
+    line-height: 1.5;
+}
+
+
+/*MOBILE*/
+@media (max-width: 720px) {
+
+    #container{
+        width: 100%;
+        min-height: 100vh;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #main{
+        width: 300px;
+        height: 94%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #infor-profile{
+        width: 300px;
+        height: 100%;
+        background-color: transparent;
+    
+    }
+    
+    #avt{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 50%;
+    }
+    
+    #contact{
+        width: 280px;
+        height: fit-content;
+        background-color: #ccc;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #exp{
+        width: 280px;
+        height: 100%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: transparent;
+    }
+    
+    .jobs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .job{
+        width: 100%;
+        height: fit-content;
+        background-color: #ccc;
+        margin-bottom: 10px;
+    }
+}
